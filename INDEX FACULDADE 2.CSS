@@ -1,0 +1,165 @@
+:root {
+    --main: rgb(255, 234, 43);
+    --black: rgb(15, 9, 0);
+    --bg: rgb(15, 9, 0);
+    --border: 0.1rem solid rgb(252, 252, 252);
+    font-size: 10px;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s linear;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+section {
+    padding: 4rem 3rem;
+    margin: 0% auto;
+    max-width: 1200px;
+}
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+    border-bottom: rgb(255, 0, 0);
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.navbar a {
+    margin: 0% 1rem;
+    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover {
+    color: var(--main)
+    border-color: (var(--main))
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+}
+
+.btn {
+    background-color: rgb(255, 251, 10);
+    color: rgb(255, 255, 255);
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+
+}
+
+.btn:hover{
+       letter-spacing: 0.3rem;
+}
+
+.home-container {
+    background: url(./resgate-de-caes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 60rem;
+}
+
+.content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+}
+    
+.content p {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8rem;
+    padding: 1rem 0rem;
+}
+
+.title {
+    font-size: 4.5rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title span {
+    color: rgb(255, 139, 85);
+    text-transform: uppercase;
+}
+.about .row {
+    display: flex;
+    text-align: center;
+    background-color: rgb(228, 142, 250);
+    gap: 1.4rem
+    ;
+}
+    
+.about .row .content {
+    padding: 1rem;
+
+
+}
+
+.about .row .content h3 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    line-height: 1.8rem;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .share: {
+    padding: 1rem 0;
+}
+
+.footer .share img {
+    margin: 0.3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.footer .share img.hover {
+    background: var(--main);
+
+}
